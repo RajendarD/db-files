@@ -1,0 +1,8 @@
+import sqlite3
+
+dbase = sqlite3.connect('new_frindly') 
+
+print 'Database opend'
+print  'batabase closed'
+
+dbase.close ()
